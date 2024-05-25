@@ -2,11 +2,11 @@ getgenv().Setting = {
     ["Team"] = "Marines", --Marines,Pirates
     ["Webhook"] = {
         ["Enabled"] = false,
-        ["Url Webhook"] = "", --Your Url
+        ["Url Webhook"] = "https://discord.com/api/webhooks/1243871538168594452/P2XgE1DOjDmqVFXjCOVK0CnK3Gnd0g-A338FTKpG8P86mTbaY72lsOzXH4cIjO04CGtB",
     },
     ["Misc"] = {
-        ["AutoBuyRandomandStoreFruit"] = true,
-        ["AutoBuySurprise"] = true,
+        ["AutoBuyRandomandStoreFruit"] = false,
+        ["AutoBuySurprise"] = false,
     },
     ["Click"] = {
         ["Enable"] = true,
@@ -25,8 +25,8 @@ getgenv().Setting = {
     },
     ["Invisible"] = true,
     ["White Screen"]  =true,
-    ["GunMethod"] = false, --Support Only Melee And Gun,Not Invisible, Turn On Enabled Gun and Melee Please
-    ["SpamSkill"] = true, -- Will use all skills as fast as possbile ignore holding skills
+    ["GunMethod"] = true, --Support Only Melee And Gun,Not Invisible, Turn On Enabled Gun and Melee Please
+    ["SpamSkill"] = true,
     ["Weapons"] = {
         ["Melee"] = {
             ["Enable"] = true,
@@ -65,7 +65,7 @@ getgenv().Setting = {
                     ["HoldTime"] = 0,
                 },
                 ["V"] = {
-                    ["Enable"] = true,
+                    ["Enable"] = false,
                     ["HoldTime"] = 0,
                 },
                 ["F"] = {
@@ -75,7 +75,7 @@ getgenv().Setting = {
             },
         },
         ["Gun"] = {
-            ["Enable"] = false,
+            ["Enable"] = true,
             ["Delay"] = 3,
             ["Skills"] = {
                 ["Z"] = {
@@ -89,7 +89,7 @@ getgenv().Setting = {
             },
         },
         ["Sword"] = {
-            ["Enable"] = false,
+            ["Enable"] = true,
             ["Delay"] = 1,
             ["Skills"] = {
                 ["Z"] = {
