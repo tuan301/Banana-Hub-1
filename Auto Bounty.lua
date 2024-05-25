@@ -5,8 +5,8 @@ getgenv().Setting = {
         ["Url Webhook"] = "https://discord.com/api/webhooks/1244074203963981885/Fpw2Dgjwk5S7ksDIEHpFgYf_uEF_BFPV7SKWj5pIZqn4czJAPgVaDhwJxgrgJ9mx_h11", --Your Url
     },
     ["Misc"] = {
-        ["AutoBuyRandomandStoreFruit"] = true,
-        ["AutoBuySurprise"] = true,
+        ["AutoBuyRandomandStoreFruit"] = false,
+        ["AutoBuySurprise"] = false,
     },
     ["Click"] = {
         ["Enable"] = true,
